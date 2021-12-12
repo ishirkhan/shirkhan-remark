@@ -1,0 +1,31 @@
+{
+  "name": "remark-shirkhan",
+  "version": "1.0.0",
+  "description": "shirkhan markdown converter plugin",
+  "author": "shirkhan uybabbage@hotmail.com",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "/lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "^2.7.0",
+    "shirkhan-alphabet-converter": "^0.0.11",
+    "shirkhan-alphabet-table": "^0.0.9"
+  },
+  "dependencies": {
+    "remark": "^14.0.2",
+    "remark-gfm": "^3.0.1",
+    "remark-math": "^5.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-stringify": "^10.0.2",
+    "unified": "^10.1.1",
+    "unist-util-visit": "^4.1.0"
+  }
+}
