@@ -16,10 +16,9 @@ function khanPlugin() {
   };
 }
 
-export const remarkKhan = unified()
-  .use(remarkParse)
+const processor = unified().use(remarkParse).use(remarkStringify).freeze();
+
+export const remarkKhan = processor()
   .use(remarkMath)
   .use(remarkGfm)
-  .use(khanPlugin)
-  .use(remarkStringify)
-  .freeze();
+  .use(khanPlugin);
