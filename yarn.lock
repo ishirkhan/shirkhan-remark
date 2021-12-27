@@ -45,8 +45,13 @@ ansi-regex@^6.0.1:
 
 array-iterate@^1.0.0:
   version "1.1.4"
-  resolved "https://registry.npm.taobao.org/array-iterate/download/array-iterate-1.1.4.tgz#add1522e9dd9749bb41152d08b845bd08d6af8b7"
+  resolved "https://registry.npmmirror.com/array-iterate/download/array-iterate-1.1.4.tgz#add1522e9dd9749bb41152d08b845bd08d6af8b7"
   integrity sha1-rdFSLp3ZdJu0EVLQi4Rb0I1q+Lc=
+
+array-iterate@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.npmmirror.com/array-iterate/download/array-iterate-2.0.1.tgz#6efd43f8295b3fee06251d3d62ead4bd9805dd24"
+  integrity sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==
 
 bail@^2.0.0:
   version "2.0.2"
@@ -692,7 +697,7 @@ nlcst-to-string@^2.0.0:
   resolved "https://registry.nlark.com/nlcst-to-string/download/nlcst-to-string-2.0.4.tgz#9315dfab80882bbfd86ddf1b706f53622dc400cc"
   integrity sha1-kxXfq4CIK7/Ybd8bcG9TYi3EAMw=
 
-nlcst-to-string@^3.0.0:
+nlcst-to-string@^3.1.0:
   version "3.1.0"
   resolved "https://registry.nlark.com/nlcst-to-string/download/nlcst-to-string-3.1.0.tgz#359519a16f086114538fcbb454e86967c471f823"
   integrity sha1-NZUZoW8IYRRTj8u0VOhpZ8Rx+CM=
@@ -701,7 +706,7 @@ nlcst-to-string@^3.0.0:
 
 parse-latin@^5.0.0:
   version "5.0.0"
-  resolved "https://registry.npm.taobao.org/parse-latin/download/parse-latin-5.0.0.tgz#a1963445f59fb9cfa3cb1ddf5f839bfeb0ee4b42"
+  resolved "https://registry.nlark.com/parse-latin/download/parse-latin-5.0.0.tgz#a1963445f59fb9cfa3cb1ddf5f839bfeb0ee4b42"
   integrity sha1-oZY0RfWfuc+jyx3fX4Ob/rDuS0I=
   dependencies:
     nlcst-to-string "^2.0.0"
@@ -783,35 +788,6 @@ resolve@^1.20.0:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
-retext-latin@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.nlark.com/retext-latin/download/retext-latin-3.1.0.tgz#72b0176af2c69a373fd0d37eadd3924418bb3a89"
-  integrity sha1-crAXavLGmjc/0NN+rdOSRBi7Ook=
-  dependencies:
-    "@types/nlcst" "^1.0.0"
-    parse-latin "^5.0.0"
-    unherit "^3.0.0"
-    unified "^10.0.0"
-
-retext-stringify@^3.0.0:
-  version "3.1.0"
-  resolved "https://registry.nlark.com/retext-stringify/download/retext-stringify-3.1.0.tgz#46ed45e077bfc4a8334977f6c2d6611e1d36263a"
-  integrity sha1-Ru1F4He/xKgzSXf2wtZhHh02Jjo=
-  dependencies:
-    "@types/nlcst" "^1.0.0"
-    nlcst-to-string "^3.0.0"
-    unified "^10.0.0"
-
-retext@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.nlark.com/retext/download/retext-8.1.0.tgz#c43437fb84cd46285ad240a9279142e239bada8d"
-  integrity sha1-xDQ3+4TNRiha0kCpJ5FC4jm62o0=
-  dependencies:
-    "@types/nlcst" "^1.0.0"
-    retext-latin "^3.0.0"
-    retext-stringify "^3.0.0"
-    unified "^10.0.0"
-
 rollup@^2.59.0:
   version "2.61.0"
   resolved "https://registry.npmmirror.com/rollup/download/rollup-2.61.0.tgz#ccd927bcd6cc0c78a4689c918627a717977208f4"
@@ -826,18 +802,23 @@ sade@^1.7.3:
   dependencies:
     mri "^1.1.0"
 
-shirkhan-alphabet-converter@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.npmmirror.com/shirkhan-alphabet-converter/download/shirkhan-alphabet-converter-0.0.11.tgz#0ba30d76f49915db5280767f27424fb5eccd2bc0"
-  integrity sha512-gURLJok/ZBuZcb3ZmpYVYjfCL/lRqALUJLUH5DpsB6F23VO87SZk/Y/TtF4iYcElWQq5jhR7Uf0xn8kgYFc6Kw==
-  dependencies:
-    retext "^8.1.0"
-    unist-util-visit "^4.1.0"
+shirkhan-alphabet-table@^1.x:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/shirkhan-alphabet-table/download/shirkhan-alphabet-table-1.1.0.tgz#bf74ecd4597691bd7717fc6c5d81cec851f51509"
+  integrity sha512-TpuHExQ2MBpgSacr/4tb5qUSbshrJ2GNkaujbBH8mbMwpmrs9daL4yLaSNAF4HV6xYlwESf8cjTRP9d70vbhIg==
 
-shirkhan-alphabet-table@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.npmmirror.com/shirkhan-alphabet-table/download/shirkhan-alphabet-table-0.0.9.tgz#7287edbc71daa4f39c525a789d56a879f500ad94"
-  integrity sha512-6nWhc7z4NUWL8M9iueAbVGQ1bVx8uW1CqCu/YKKOcVo6H0xRLs5h4M803aeo5f7szC1tHxNEcHHL6ZvDl89zXg==
+shirkhan-retext@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/shirkhan-retext/download/shirkhan-retext-1.0.6.tgz#4b602849dc30768d246b48ece271fc3b09cd1b92"
+  integrity sha512-yUsS3exO0S+CsrECJtzWqpkNY8ws3/DK7nE9YGup7b9BRk4coY5FHqLOr/y3e0BijyT0gHMM45GAEwT7m1+uPQ==
+  dependencies:
+    nlcst-to-string "^3.1.0"
+    parse-latin "^5.0.0"
+    shirkhan-alphabet-table "^1.x"
+    typescript "4.4.4"
+    unified "^10.1.1"
+    unist-util-modify-children "^3.0.0"
+    unist-util-visit "^4.1.0"
 
 source-map-js@^1.0.1:
   version "1.0.1"
@@ -875,11 +856,6 @@ typescript@4.4.4:
   resolved "https://registry.npmmirror.com/typescript/download/typescript-4.4.4.tgz#2cd01a1a1f160704d3101fd5a58ff0f9fcb8030c"
   integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
 
-unherit@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.nlark.com/unherit/download/unherit-3.0.0.tgz?cache=0&sync_timestamp=1626423513229&other_urls=https%3A%2F%2Fregistry.nlark.com%2Funherit%2Fdownload%2Funherit-3.0.0.tgz#83d69af9d8e3afd28fa51cff9ee84de7a1d82a6b"
-  integrity sha1-g9aa+djjr9KPpRz/nuhN56HYKms=
-
 unified@^10.0.0, unified@^10.1.1:
   version "10.1.1"
   resolved "https://registry.npmmirror.com/unified/download/unified-10.1.1.tgz#345e349e3ab353ab612878338eb9d57b4dea1d46"
@@ -905,6 +881,14 @@ unist-util-modify-children@^2.0.0:
   dependencies:
     array-iterate "^1.0.0"
 
+unist-util-modify-children@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/unist-util-modify-children/download/unist-util-modify-children-3.0.0.tgz#fe2cc1b26f841100b79bf1a9a04bcae6c78c4c42"
+  integrity sha1-/izBsm+EEQC3m/GpoEvK5seMTEI=
+  dependencies:
+    "@types/unist" "^2.0.0"
+    array-iterate "^2.0.0"
+
 unist-util-stringify-position@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/unist-util-stringify-position/download/unist-util-stringify-position-3.0.0.tgz?cache=0&sync_timestamp=1618328136616&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Funist-util-stringify-position%2Fdownload%2Funist-util-stringify-position-3.0.0.tgz#d517d2883d74d0daa0b565adc3d10a02b4a8cde9"
@@ -914,7 +898,7 @@ unist-util-stringify-position@^3.0.0:
 
 unist-util-visit-children@^1.0.0:
   version "1.1.4"
-  resolved "https://registry.npm.taobao.org/unist-util-visit-children/download/unist-util-visit-children-1.1.4.tgz#e8a087e58a33a2815f76ea1901c15dec2cb4b432"
+  resolved "https://registry.nlark.com/unist-util-visit-children/download/unist-util-visit-children-1.1.4.tgz#e8a087e58a33a2815f76ea1901c15dec2cb4b432"
   integrity sha1-6KCH5YozooFfduoZAcFd7Cy0tDI=
 
 unist-util-visit-parents@^4.0.0:
