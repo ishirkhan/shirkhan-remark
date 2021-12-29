@@ -27,7 +27,8 @@
     "replace": "^1.2.1",
     "standard-version": "^9.3.2",
     "typescript": "4.4.4",
-    "vite": "^2.7.0"
+    "vite": "^2.7.0",
+    "shirkhan-retext": "^1.x"
   },
   "dependencies": {
     "remark": "^14.0.2",
@@ -35,7 +36,6 @@
     "remark-math": "^5.1.1",
     "remark-parse": "^10.0.1",
     "remark-stringify": "^10.0.2",
-    "shirkhan-retext": "^1.0.6",
     "string-width": "^5.0.1",
     "unified": "^10.1.1",
     "unist-util-visit": "^4.1.0"
